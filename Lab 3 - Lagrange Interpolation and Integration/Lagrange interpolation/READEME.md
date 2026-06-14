@@ -26,3 +26,45 @@ To run this script, you need Python installed along with the following packages:
 You can install the dependencies via pip:
 ```bash
 pip install numpy matplotlib
+
+
+## Sample Output
+
+![Sample Output](sample%20output.png)
+
+---
+
+## Visualization
+
+The graph displays:
+
+- Green dots → Original data points
+- Black curve → Lagrange interpolation polynomial
+- Red cross → Interpolated value at `x = 5`
+
+---
+
+## Project Structure
+
+```text
+.
+├── lagrange_interpolation.py
+├── sample output.png
+└── README.md
+```
+
+---
+
+## Features
+
+- Pure implementation of Lagrange interpolation
+- Works with any valid dataset containing at least two points
+- Automatic plotting using Matplotlib
+- Interpolated value visualization
+- Easy to modify for different datasets
+
+---
+
+## Author
+
+Created using Python, NumPy, and Matplotlib for numerical analysis and interpolation visualization.

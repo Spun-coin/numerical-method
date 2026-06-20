@@ -29,7 +29,7 @@ ynew=lagrange(x,y,xnew)
 print(f"y({xp}) = {yp}")
 
 plt.figure()
-plt.scatter(x,y,color="GREEN")
+plt.scatter(x,y,color="GREEN",label="dataset")
 plt.scatter(xp,yp,color="red",label="Interpoled",marker="x")
 plt.plot(xnew,ynew,color="BLACK")
 plt.title("Lagrange Interpolation")

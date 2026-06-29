@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 x = [1,3,4,7,10]
-y = [-6,6,36,20,30]
+y = [97,42,59,61,10]
 xlen=len(x)
 ylen=len(y)
 n=xlen
@@ -31,7 +31,7 @@ print(f"y({xp}) = {yp}")
 plt.figure()
 plt.scatter(x,y,color="GREEN",label="dataset")
 plt.scatter(xp,yp,color="red",label="Interpoled",marker="x")
-plt.plot(xnew,ynew,color="BLACK")
+plt.plot(xnew,ynew,color="BLACK",label="function")
 plt.title("Lagrange Interpolation")
 plt.xlabel("x-axis")
 plt.ylabel("y-axis")

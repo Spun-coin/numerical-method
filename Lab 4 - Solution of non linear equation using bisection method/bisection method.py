@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys 
 def f(x):
-    return x*np.sin(x) + np.cos(x)
+    return 4*np.log(x)
 
 def bisection(f,a,b,tolerance):
     if f(a)*f(b)>0:
@@ -17,7 +17,7 @@ def bisection(f,a,b,tolerance):
         if abs(f(c))<tolerance:
             return c, f(c)
 
-a, b = 9,10
+a, b = 0,2
 d=int(input("Enter the required decimal correctness: "))
 tolerance = 5 * 10 ** (-d)
 root,fval=bisection(f,a,b,tolerance)
@@ -28,7 +28,7 @@ xvals = np.linspace(-10+root, 10+root, 200)
 yvals=f(xvals)
 plt.figure()
 plt.scatter(root,f(root),marker="x",color="black",label=f"root = {root:.{d+1}f}")
-plt.plot(xvals,yvals,label="f(x) = xsin(x) + cos(x)")
+plt.plot(xvals,yvals,label="f(x) = 4sin(x+2)")
 plt.axhline(0,color="black")
 plt.xlabel("x-axis")
 plt.ylabel("y-axis")

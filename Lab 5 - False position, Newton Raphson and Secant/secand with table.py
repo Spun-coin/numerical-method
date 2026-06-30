@@ -48,7 +48,7 @@ else:
     yvals=f(xvals)
     import matplotlib.pyplot as plt
     plt.figure()
-    plt.scatter(root,f(root),marker="x",color="Black",label=f"({root:.{d+1}f},0)")  
+    plt.scatter(root,f(root),marker="x",color="Black",label=f"({root:.{d+1}f}, 0)")  
     plt.plot(xvals,yvals,label="f(x) = xsin(x) + cos(x)")
     plt.axvline(root)
     plt.axhline(0)

@@ -11,7 +11,7 @@ def false_position(f,a,b,tol):
         sys.exit(0)
     while True:
         c=(a*f(b)-b*f(a))/(f(b)-f(a))
-        print(f"{a:.{d+1}f}  {b:.{d+1}f}  {c:.{d+1}f}  {f(c):.{d+1}f}"  )
+        
 
         if f(a)*f(c)<0:
             b=c

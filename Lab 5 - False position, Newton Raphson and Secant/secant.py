@@ -11,7 +11,7 @@ b=int(input("Enter b: "))
 d=int(input("Enter the required decimal correctness: "))
 tol = 5 * 10 ** (-d)
 
-def Secand(f,a,b,tol):
+def Secant(f,a,b,tol):
     count = 1
     while True:
         if abs(f(b)-f(a))<tol:
@@ -26,7 +26,7 @@ def Secand(f,a,b,tol):
         if abs(f(b))<tol:
             return c, count
 
-root,step=Secand(f,a,b,tol)
+root,step=Secant(f,a,b,tol)
 if root is None:
     print("No solution")
 

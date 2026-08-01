@@ -30,12 +30,6 @@ Exact solution : 3.437
 Euler          : 3.187
 RK2            : 3.390
 RK4            : 3.435
-
-The solution at x = 1 using different methods are:
-Exact solution : 3.437
-Euler          : 3.187
-RK2            : 3.390
-RK4            : 3.435
 ```
 
 ---

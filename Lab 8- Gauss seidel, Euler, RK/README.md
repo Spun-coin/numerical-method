@@ -11,8 +11,8 @@ $$y(x) = 2e^x - x - 1$$
 ---
 
 ## 🛠️ Numerical Methods Implemented
-1. **Euler's Method** (First-order approach)
-2. **Runge-Kutta 2nd Order (RK2)** / Heun's Method
+1. **Euler's Method** 
+2. **Runge-Kutta 2nd Order (RK2)** 
 3. **Runge-Kutta 4th Order (RK4)**
 4. **Exact Analytical Solution**
 

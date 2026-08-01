@@ -18,7 +18,7 @@ $$y(x) = 2e^x - x - 1$$
 
 ---
 
-## 💻 Sample Terminal Output
+## 💻 Terminal Output
 ```console
 Enter n for Euler: 10
 Enter n for RK2: 4

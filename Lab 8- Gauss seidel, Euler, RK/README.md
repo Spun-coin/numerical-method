@@ -19,6 +19,7 @@ $$y(x) = 2e^x - x - 1$$
 ---
 
 ## 💻 Sample Terminal Output
+```console
 Enter n for Euler: 10
 Enter n for RK2: 4
 Enter n for RK4: 2
@@ -29,6 +30,13 @@ Exact solution : 3.437
 Euler          : 3.187
 RK2            : 3.390
 RK4            : 3.435
+
+The solution at x = 1 using different methods are:
+Exact solution : 3.437
+Euler          : 3.187
+RK2            : 3.390
+RK4            : 3.435
+```
 
 ---
 
